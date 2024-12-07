@@ -1,76 +1,82 @@
 const Cards = () => {
   return (
-    <div className="card-group">
-      <div className="card me-3 mb-3">
-        <img src="..." className="card-img-top" alt="..." />
+    <div
+      className="d-flex justify-content-between align-items-start flex-wrap"
+      style={{ margin: "0 auto", maxWidth: "1200px", padding: "20px" }}
+    >
+      <div
+        className="card"
+        style={{ width: "18rem", flex: "1", margin: "0 10px" }}
+      >
+        <img
+          className="card-img-top"
+          src="/src/files /IMG_0166.HEIC"          alt="Card image cap"
+        />
         <div className="card-body">
           <h5 className="card-title">Card title</h5>
           <p className="card-text">
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This card has even longer content than the
-            first to show that equal height action.
-          </p>
-          <p className="card-text">
-            <small className="text-body-secondary">
-              Last updated 3 mins ago
-            </small>
+            Some quick example text to build on the card title and make up the
+            bulk of the cards content.
           </p>
           <a href="#" className="btn btn-primary">
             Go somewhere
           </a>
         </div>
       </div>
-      <div className="card me-3 mb-3">
-        <img src="..." className="card-img-top" alt="..." />
+      <div
+        className="card"
+        style={{ width: "18rem", flex: "1", margin: "0 10px" }}
+      >
+        <img
+          className="card-img-top"
+          src="/src/files /IMG_0166.HEIC" 
+          alt="Card image cap"
+        />
         <div className="card-body">
           <h5 className="card-title">Card title</h5>
           <p className="card-text">
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This card has even longer content than the
-            first to show that equal height action.
-          </p>
-          <p className="card-text">
-            <small className="text-body-secondary">
-              Last updated 3 mins ago
-            </small>
+            Some quick example text to build on the card title and make up the
+            bulk of the cards content.
           </p>
           <a href="#" className="btn btn-primary">
             Go somewhere
           </a>
         </div>
       </div>
-      <div className="card me-3 mb-3">
-        <img src="..." className="card-img-top" alt="..." />
+      <div
+        className="card"
+        style={{ width: "18rem", flex: "1", margin: "0 10px" }}
+      >
+        <img
+          className="card-img-top"
+          src="/src/files /IMG_0166.HEIC"
+          alt="Card image cap"
+        />
         <div className="card-body">
           <h5 className="card-title">Card title</h5>
           <p className="card-text">
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This card has even longer content than the
-            first to show that equal height action.
-          </p>
-          <p className="card-text">
-            <small className="text-body-secondary">
-              Last updated 3 mins ago
-            </small>
+            Some quick example text to build on the card title and make up the
+            bulk of the cards content.
           </p>
           <a href="#" className="btn btn-primary">
             Go somewhere
           </a>
         </div>
       </div>
-      <div className="card">
-        <img src="..." className="card-img-top" alt="..." />
+      <div
+        className="card"
+        style={{ width: "18rem", flex: "1", margin: "0 10px" }}
+      >
+        <img
+          className="card-img-top"
+          src="/src/files /IMG_0166.HEIC" 
+          alt="Card image cap"
+        />
         <div className="card-body">
           <h5 className="card-title">Card title</h5>
           <p className="card-text">
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This card has even longer content than the
-            first to show that equal height action.
-          </p>
-          <p className="card-text">
-            <small className="text-body-secondary">
-              Last updated 3 mins ago
-            </small>
+            Some quick example text to build on the card title and make up the
+            bulk of the cards content.
           </p>
           <a href="#" className="btn btn-primary">
             Go somewhere
